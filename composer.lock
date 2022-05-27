@@ -493,7 +493,7 @@
         },
         {
             "name": "elasticsearch/elasticsearch",
-            "version": "v8.2.1",
+            "version": "v8.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elasticsearch-php.git",
@@ -542,7 +542,7 @@
             ],
             "support": {
                 "issues": "https://github.com/elastic/elasticsearch-php/issues",
-                "source": "https://github.com/elastic/elasticsearch-php/tree/v8.2.1"
+                "source": "https://github.com/elastic/elasticsearch-php/tree/v8.2.2"
             },
             "time": "2022-05-04T08:30:48+00:00"
         },
