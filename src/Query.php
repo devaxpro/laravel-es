@@ -74,6 +74,8 @@ class Query implements Arrayable, JsonSerializable, Jsonable, IteratorAggregate
 
     protected const FIELD_SOURCE = '_source';
 
+    protected const FIELD_FIELDS = 'fields';
+
     protected const FIELD_TYPE = '_type';
 
     public const GT = self::OPERATOR_GREATER_THAN;
@@ -137,6 +139,8 @@ class Query implements Arrayable, JsonSerializable, Jsonable, IteratorAggregate
     public const SOURCE_EXCLUDES = 'excludes';
 
     public const SOURCE_INCLUDES = 'includes';
+
+    public const GET_DATA_FROM = self::FIELD_FIELDS;
 
     protected static $defaultSource = [
         self::SOURCE_INCLUDES => [],
