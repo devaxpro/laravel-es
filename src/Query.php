@@ -140,8 +140,6 @@ class Query implements Arrayable, JsonSerializable, Jsonable, IteratorAggregate
 
     public const SOURCE_INCLUDES = 'includes';
 
-    public const GET_DATA_FROM = self::FIELD_FIELDS;
-
     protected static $defaultSource = [
         self::SOURCE_INCLUDES => [],
         self::SOURCE_EXCLUDES => [],
